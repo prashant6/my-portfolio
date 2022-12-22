@@ -29,7 +29,7 @@ export default function About() {
                         <article className='about__card'>
                             <FaTools className='about__icon' />
                             <h5>Skills</h5>
-                            <small>html css javascript react redux git </small>
+                            <small>HTML5 CSS3 JavaScript Bootstrap React Redux Git  </small>
                         </article>
 
                         <article className='about__card'>

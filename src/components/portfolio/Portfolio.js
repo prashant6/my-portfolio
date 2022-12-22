@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import img from '../../assets/img.jpg'
+import img from '../../assets/NewsIQ.jpg'
 
 export default function Portfolio() {
     return (
@@ -13,10 +13,13 @@ export default function Portfolio() {
                     <div className="portfolio--image">
                         <img src={img} alt="" />
                     </div>
-                    <h3>This is a portfolio item title</h3>
+                    <h3>NewsIQ</h3>
+                    <p>Developed a news app that fetches news from an API with different categories to read from.
+                        Implemented with HTML CSS Bootstrap JavaScript and ReactJS and deployed on github pages
+                    </p>
                     <div className="portfolio__item--cta">
-                        <a href="https://github.com/prashant6" className='btn' target='_blank'>Github</a>
-                        <a href="https://github.com/prashant6" className='btn btn-primary' target='_blank'>Live Demo</a>
+                        <a href="https://github.com/prashant6/newsapp" className='btn' target='_blank'>Github</a>
+                        <a href="https://prashant6.github.io/newsapp/" className='btn btn-primary' target='_blank'>Live Demo</a>
                     </div>
                 </article>
 
@@ -24,7 +27,8 @@ export default function Portfolio() {
                     <div className="portfolio--image">
                         <img src={img} alt="" />
                     </div>
-                    <h3>This is a portfolio item title</h3>
+                    <h3>Shop Freely</h3>
+                    <p>Currently under development. Will be live soon</p>
                     <div className="portfolio__item--cta">
                         <a href="https://github.com/prashant6" className='btn' target='_blank'>Github</a>
                         <a href="https://github.com/prashant6" className='btn btn-primary' target='_blank'>Live Demo</a>
