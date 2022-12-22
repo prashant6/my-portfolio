@@ -27,7 +27,7 @@ export default function Portfolio() {
                     <div className="portfolio--image">
                         <img src={img} alt="" />
                     </div>
-                    <h3>Shop Freely</h3>
+                    <h3>ShopFreely</h3>
                     <p>Currently under development. Will be live soon</p>
                     <div className="portfolio__item--cta">
                         <a href="https://github.com/prashant6" className='btn' target='_blank'>Github</a>
