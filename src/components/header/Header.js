@@ -2,31 +2,33 @@ import React from 'react'
 import CallToAction from './CallToAction'
 import HeaderSocials from './HeaderSocials'
 import './header.css'
-import ME from '../../assets/me.png'
+import ME from '../../assets/me7.png'
 
 export default function Header() {
-  return (
-    <>
-      <header>
-        <div className="container header__container">
-          <h5>Hello I'm</h5>
-          <h1>Prashant Singh</h1>
-          <h5 className="text-light">Front End Developer</h5>
+    return (
+        <>
+            <header>
+                <div className="container header__container">
+                    <h5>Hello I'm</h5>
+                    <h1>Prashant Singh</h1>
+                    <h5 className="text-light">Front End Developer</h5>
 
-          <CallToAction />
-          <HeaderSocials />
+                    <CallToAction />
+                    <HeaderSocials />
 
-          <div className="me">
-            <img src={ME} alt="It's Me" style={{width: "200px"}}/>
-          </div>
+                    <div id='container__image'>
+                        <img src={ME} alt="" id='imageOfMe' />
+                    </div>
 
-          <a href="#contact" className="scroll__down">Scroll Down</a>
+                    {/* <div className="me">
+            <img src={ME} alt="It's Me" style={{aspectRatio:"2/3"}}/>
+          </div> */}
 
-        </div>
-      </header>
+                    <a href="#contact" className="scroll__down">Scroll Down</a>
 
-    </>
-  )
+                </div>
+            </header>
+
+        </>
+    )
 }
-
-

@@ -1,6 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import img from '../../assets/NewsIQ.jpg'
+import img2 from '../../assets/img.jpg'
 
 export default function Portfolio() {
     return (
@@ -25,7 +26,7 @@ export default function Portfolio() {
 
                 <article className="portfolio__item">
                     <div className="portfolio--image">
-                        <img src={img} alt="" />
+                        <img src={img2} alt="" />
                     </div>
                     <h3>ShopFreely</h3>
                     <p>Currently under development. Will be live soon</p>

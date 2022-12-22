@@ -39,8 +39,21 @@ header {
     background-color: var(--color-primary);
 }
 
-/* ----------------- SCROLL DOWN ------------------- */
+#container__image{
+    background: linear-gradient(var(--color-primary-variant), transparent);
+    border-radius: 8rem 8rem 0 0;
+    display: flex;
+    width: 40%;
+    margin: 0 auto;
+    /* left: calc(50%); */
+    /* transform: translateX(50%); */
+    margin-top: 4rem;
+    overflow: hidden;
+    height: 20rem;
+    object-fit: contain;
+}
 
+/* ----------------- SCROLL DOWN ------------------- */
 
 .scroll__down {
     position: absolute;
@@ -52,20 +65,10 @@ header {
     font-size: 0.9rem;
 }
 
-
-/* ----------------- Me------------------- */
-
-.me {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    /* left: calc(50%);
-    transform: translateX(-50%); */
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+#imageOfMe {
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 45%;
 }
 
 /* ----------------- MEDIA QUERIES (MEDIUM DEVICES) ---------------------- */
@@ -89,4 +92,17 @@ header {
     .header__socials, .scroll__down {
         display: none;
     }
+
+    #container__image{
+        height: 23rem;
+        width: 80%;
+        object-fit: contain;
+        object-position: 30% 0%;
+
+    }   
+
+    #imageOfMe {
+        object-position: 20% 2rem;
+    }
 }
+
